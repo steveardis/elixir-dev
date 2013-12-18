@@ -17,20 +17,3 @@ GIT_EMAIL = nil
 SYNCED_DIRS = [
 #  ["~/dev/", "/home/vagrant/dev/"]
 ]
-
-
-# uncomment specific releases to install them to the erlenv directory
-ERLENV_RELEASES = [
-# {"otp_git_ref" => "OTP_R14B", "prefix" => "/home/vagrant/.erlenv/releases/r14b"},
-# {"otp_git_ref" => "OTP_R14B04", "prefix" => "/home/vagrant/.erlenv/releases/r14b04"},
-# {"otp_git_ref" => "OTP_R15B", "prefix" => "/home/vagrant/.erlenv/releases/r15b"},
-# {"otp_git_ref" => "OTP_R15B01", "prefix" => "/home/vagrant/.erlenv/releases/r15b01"},
-# {"otp_git_ref" => "OTP_R15B02", "prefix" => "/home/vagrant/.erlenv/releases/r15b02"},
-# {"otp_git_ref" => "OTP_R15B03-1", "prefix" => "/home/vagrant/.erlenv/releases/r15b03-1"},
-# {"otp_git_ref" => "OTP_R16B", "prefix" => "/home/vagrant/.erlenv/releases/r16b"},
-# {"otp_git_ref" => "OTP_R16B01", "prefix" => "/home/vagrant/.erlenv/releases/r16b01"}
-]
-
-
-# this will be the default `erl' on the resulting system
-SYSTEM_RELEASE = "OTP_R16B03"

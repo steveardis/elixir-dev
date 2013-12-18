@@ -22,14 +22,11 @@ Vagrant.configure("2") do |config|
   # provision via chef_solo
   config.vm.provision :chef_solo do |chef|
     chef.add_recipe "base"
-    chef.add_recipe "erlang-dev"
+    chef.add_recipe "elixir"
     chef.json = {
       "base" => {
         "user"  => GIT_USER,
         "email" => GIT_EMAIL
-      },
-      "erlang" => {
-        "releases" => ERLENV_RELEASES + [{"otp_git_ref" => SYSTEM_RELEASE}]
       }
     }
   end

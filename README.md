@@ -1,10 +1,10 @@
 # erlang-dev (v0.10) #
 
-a disposable [vagrant][vagrant] enviroment for erlang development. based on [basicest][basicest]
+a disposable [vagrant][vagrant] enviroment for elixir development. based on [basicest][basicest]
 
 provisioned with chef
 
-erlang-dev is released under the terms of the [MIT][MIT] license
+elixir-dev is released under the terms of the [MIT][MIT] license
 
 copyright 2013 alisdair sullivan
 
@@ -62,13 +62,13 @@ all configuration is accessed via `settings.rb`
 
 ## description ##
 
-it's early days. right now it just builds an ubuntu environment with the latest erlang. stay tuned
+it's early days. right now it just builds an ubuntu environment with the latest elixir. stay tuned
 
 
 
 ## acknowledgements ##
 
-all those people who can't get erlang to build on their machine
+all those people who can't get elixir to build on their machine
 
 
 
