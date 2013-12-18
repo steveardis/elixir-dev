@@ -1,4 +1,4 @@
-# erlang-dev (v0.10) #
+# elixir-dev (v0.10) #
 
 a disposable [vagrant][vagrant] enviroment for elixir development. based on [basicest][basicest]
 
